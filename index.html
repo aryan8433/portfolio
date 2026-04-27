@@ -63,7 +63,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Aryan Bhusari</h1>
-        <p class="section__text__p2">Training AI models to read, predict, and recommend (but not take over… yet).🤖</p>
+        <p class="section__text__p2">M.S. Computer Science (USC). Machine learning engineer focused on LLMs, on-device and distributed inference, and end-to-end ML pipelines.</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -103,37 +103,209 @@
           />
         </div> -->
         <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Jul-Dec 2023<br />Deep Learning Intern @C-DAC, Pune</p><br />
-              <p>Jun-Dec 2023<br />Optimization Intern @IoAI, MIT-WPU, Pune</p><br />
-              <p>Mar-Nov 2023<br />Data Science Intern @ IISER, Pune</p>
+          <p class="about-intro">
+            I am an M.S. Computer Science student at USC (GPA 3.55) with
+            coursework spanning algorithms, deep learning, NLP, computer
+            vision, information retrieval, database systems, and trustworthy
+            foundation models. Below is a snapshot of my work and study so far.
+          </p>
+          <div
+            class="ee-grid"
+            role="region"
+            aria-label="Work experience and education"
+          >
+            <div class="ee-column">
+              <h2 class="ee-column__title">
+                <img
+                  src="./assets/experience.png"
+                  alt=""
+                  class="ee-column__icon"
+                  width="24"
+                  height="24"
+                />
+                Work experience
+              </h2>
+              <ul class="ee-timeline">
+                <li class="ee-timeline__item">
+                  <article class="ee-card">
+                    <div class="ee-card__head">
+                      <h3 class="ee-card__title">
+                        Machine Learning Software Engineer Intern
+                      </h3>
+                      <time class="ee-card__date" datetime="2025-05-01"
+                        >May 2025 – Aug 2025</time
+                      >
+                    </div>
+                    <p class="ee-card__org">Arm · Austin, TX</p>
+                    <ul class="ee-card__list">
+                      <li>
+                        Architected and optimized on-device and distributed LLM
+                        inference (up to 405B parameters) in llama.cpp: RPC
+                        visibility, GGUF v3 quantized models, and SWE-InfraBench
+                        benchmarks across AWS, Azure, and GCP; used Linux
+                        <code>perf</code> to profile inference hot paths.
+                      </li>
+                      <li>
+                        Addressed CPU core underutilization to about double
+                        throughput; benchmarked across instance types, batch
+                        sizes, and prompt lengths.
+                      </li>
+                    </ul>
+                    <div class="ee-card__tags">
+                      <span class="ee-tag">C / C++</span>
+                      <span class="ee-tag">llama.cpp</span>
+                      <span class="ee-tag">LLM inference</span>
+                      <span class="ee-tag">Cloud</span>
+                      <span class="ee-tag">Performance</span>
+                    </div>
+                  </article>
+                </li>
+                <li class="ee-timeline__item">
+                  <article class="ee-card">
+                    <div class="ee-card__head">
+                      <h3 class="ee-card__title">Deep Learning Intern</h3>
+                      <time class="ee-card__date" datetime="2023-07-01"
+                        >Jul 2023 – Dec 2023</time
+                      >
+                    </div>
+                    <p class="ee-card__org">C-DAC · Pune, India</p>
+                    <ul class="ee-card__list">
+                      <li>
+                        End-to-end deep learning OCR for handwritten Sanskrit
+                        manuscripts, reaching about 97% character-level
+                        accuracy.
+                      </li>
+                      <li>
+                        Segmentation, recognition, and training with
+                        Detectron2, Label Studio, and Python (TensorFlow /
+                        Keras).
+                      </li>
+                    </ul>
+                    <div class="ee-card__tags">
+                      <span class="ee-tag">Python</span>
+                      <span class="ee-tag">PyTorch / TF</span>
+                      <span class="ee-tag">NLP + CV</span>
+                      <span class="ee-tag">Detectron2</span>
+                    </div>
+                  </article>
+                </li>
+                <li class="ee-timeline__item">
+                  <article class="ee-card">
+                    <div class="ee-card__head">
+                      <h3 class="ee-card__title">Data Science Intern</h3>
+                      <time class="ee-card__date" datetime="2023-03-01"
+                        >Mar 2023 – Nov 2023</time
+                      >
+                    </div>
+                    <p class="ee-card__org">IISER · Pune, India</p>
+                    <ul class="ee-card__list">
+                      <li>
+                        Geospatial project on INSAT-3D, MODIS Aqua/Terra, and
+                        related sources—LST under low cloud cover.
+                      </li>
+                      <li>
+                        Pipelines over 400+ GB: subsetting, regridding,
+                        collocation, interpolation in SciPy and Xarray.
+                      </li>
+                    </ul>
+                    <div class="ee-card__tags">
+                      <span class="ee-tag">Python</span>
+                      <span class="ee-tag">Xarray</span>
+                      <span class="ee-tag">Geospatial</span>
+                      <span class="ee-tag">SciPy</span>
+                    </div>
+                  </article>
+                </li>
+              </ul>
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>MSCS @ University of Southern California<br />2024 - Ongoing<br /><br />BTech in CSE @ MIT World Peace University<br />2020 - 2024</p>
+            <div class="ee-column">
+              <h2 class="ee-column__title">
+                <img
+                  src="./assets/education.png"
+                  alt=""
+                  class="ee-column__icon"
+                  width="24"
+                  height="24"
+                />
+                Education
+              </h2>
+              <ul class="ee-timeline">
+                <li class="ee-timeline__item">
+                  <article class="ee-card">
+                    <div class="ee-card__head">
+                      <h3 class="ee-card__title">M.S. in Computer Science</h3>
+                      <time class="ee-card__date" datetime="2024-08-01"
+                        >Aug 2024 – May 2026</time
+                      >
+                    </div>
+                    <p class="ee-card__org">
+                      USC Viterbi School of Engineering · Los Angeles, CA
+                    </p>
+                    <p class="ee-edu-lead">
+                      <strong class="ee-edu-metric">GPA 3.55.</strong> Graduate
+                      work spans analysis of algorithms, deep learning, applied
+                      NLP, advanced computer vision, information retrieval,
+                      database systems, and robustness of large models.
+                    </p>
+                    <details class="ee-accordion">
+                      <summary class="ee-accordion__summary">
+                        <span class="ee-accordion__more">Full course list</span>
+                        <span class="ee-accordion__less">Hide course list</span>
+                      </summary>
+                      <div class="ee-accordion__body">
+                        CSCI 699 Adversarial and Trustworthy Foundation Models<br />
+                        CSCI 585 Database Systems<br />
+                        CSCI 544 Applications of NLP<br />
+                        DSCI 552 Machine Learning for Data Science<br />
+                        CSCI 570 Analysis of Algorithms<br />
+                        CSCI 566 Deep Learning and Its Applications<br />
+                        CSCI 677 Advanced Computer Vision<br />
+                        CSCI 572 Information Retrieval and Web Search Engines
+                      </div>
+                    </details>
+                    <div class="ee-card__tags">
+                      <span class="ee-tag">ML</span>
+                      <span class="ee-tag">Deep learning</span>
+                      <span class="ee-tag">NLP</span>
+                      <span class="ee-tag">Vision</span>
+                      <span class="ee-tag">Databases</span>
+                      <span class="ee-tag">Trustworthy ML</span>
+                    </div>
+                  </article>
+                </li>
+                <li class="ee-timeline__item">
+                  <article class="ee-card">
+                    <div class="ee-card__head">
+                      <h3 class="ee-card__title">B.Tech in Computer Science</h3>
+                      <time class="ee-card__date" datetime="2020-10-01"
+                        >Oct 2020 – May 2024</time
+                      >
+                    </div>
+                    <p class="ee-card__org">
+                      Maharashtra Institute of Technology · Pune, India
+                    </p>
+                    <p class="ee-edu-lead">
+                      <strong class="ee-edu-metric">CGPA 9.36/10.</strong> Core
+                      mathematics and a concentration in data-intensive
+                      systems; coursework included big-data analytics and
+                      statistical foundations.
+                    </p>
+                    <div class="ee-card__tags">
+                      <span class="ee-tag">Computer science</span>
+                      <span class="ee-tag">Data analytics</span>
+                      <span class="ee-tag">Mathematics</span>
+                    </div>
+                  </article>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="text-container">
-            <p>
-              I'm a USC Computer Science student with a strong passion for machine learning, deep learning, and optimization. 
-              I've tackled diverse challenges, from geospatial data procesing and historical manuscript OCR to leveraging LLMs for stock market predictions. 
-              My internships have provided valuable hands-on experience in deep learning, metaheuristics, and large-scale 
-              data processing, and I've applied these skills to projects like financial LLM fine-tuning, federated learning for healthcare, and facial emotion recognition. 
-              Currently, I'm currently pursuing machine unlearning research, and I'm proficient in Python, SQL, TensorFlow, and Scikit-learn.
-            </p>
-          </div>
+          <p class="about-publication">
+            I also co-authored a Springer chapter on
+            <em>drone path planning using the cohort intelligence algorithm</em>
+            (Bhusari &amp; Kulkarni, 2025), part of <em>Optimization Techniques
+            for Sustainable Environment Under Uncertainty</em>.
+          </p>
         </div>
       </div>
       <img
@@ -145,11 +317,11 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frameworks</h2>
+            <h2 class="experience-sub-title">Frameworks &amp; tools</h2>
             <div class="article-container">
               <article>
                 <img
@@ -158,8 +330,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Tensorflow</h3>
-                  <!-- <p>Experienced</p> -->
+                  <h3>PyTorch</h3>
                 </div>
               </article>
               <article>
@@ -170,7 +341,6 @@
                 />
                 <div>
                   <h3>Hugging Face</h3>
-                  <!-- <p>Experienced</p> -->
                 </div>
               </article>
               <article>
@@ -180,8 +350,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>NumPy & Pandas</h3>
-                  <!-- <p>Intermediate</p> -->
+                  <h3>llama.cpp</h3>
                 </div>
               </article>
               <article>
@@ -191,8 +360,47 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Langchain</h3>
-                  <!-- <p>Intermediate</p> -->
+                  <h3>Unsloth</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LoRA / QLoRA</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LangChain</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NumPy &amp; Pandas</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matplotlib</h3>
                 </div>
               </article>
               <article>
@@ -203,7 +411,66 @@
                 />
                 <div>
                   <h3>Scikit-learn</h3>
-                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenCV</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Detectron2</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow / Keras</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Xarray</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GeoPandas / Rasterio</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
                 </div>
               </article>
               <article>
@@ -214,24 +481,12 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <!-- <p>Basic</p> -->
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PyTorch</h3>
-                  <!-- <p>Intermediate</p> -->
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Programming language</h2>
+            <h2 class="experience-sub-title">Languages</h2>
             <div class="article-container">
               <article>
                 <img
@@ -241,6 +496,17 @@
                 />
                 <div>
                   <h3>Python</h3>
+                  <p>Proficient</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C / C++</h3>
                   <p>Proficient</p>
                 </div>
               </article>
@@ -262,19 +528,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C++</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
                   <h3>Java</h3>
-                  <p>Basic</p>
+                  <p>Familiar</p>
                 </div>
               </article>
             </div>
@@ -293,7 +548,7 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
+          <div class="details-container color-container project-card">
             <div class="article-container">
               <img
                 src="./assets/proj1.jpg"
@@ -302,72 +557,90 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">PriceNet</h2>
-            <p class="section__text__p1">Fine-tuning open source LLMs (e.g. LLama) for stock price prediction and reasoning</p><br>
-            <div class="btn-container">
+            <div class="project-card__grow">
+              <details class="project-details">
+                <summary class="project-details__summary">
+                  <span class="project-details__more">Read more</span>
+                  <span class="project-details__less">Show less</span>
+                </summary>
+                <div class="project-details__panel">
+                  <p class="project-details__text">
+                    End-to-end pipeline for 65 NASDAQ companies: binned price sequences plus financial news, LLM-based imputation for missing news (Gemini), and fine-tuned LLaMA 3.1-8B-Instruct for next-day movement with chain-of-thought explanations—evaluated against ARMA-GARCH, XGBoost, and more (binary accuracy, bin accuracy, ROUGE on rationales).
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="btn-container project-card__actions">
               <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aryan8433'"
               >
-              Github
-            </button>
-            <!-- <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Live Demo
-          </button> -->
-        </div>
-      </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-          src="./assets/hello.png"
-          alt="Project 2"
-          class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">FedMed</h2>
-        <p class="section__text__p1">Privacy-preserving model training with Federated Learning on hospital medical data</p><br>
-            <div class="btn-container">
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container project-card">
+            <div class="article-container">
+              <img
+                src="./assets/hello.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">FedMed</h2>
+            <div class="project-card__grow">
+              <details class="project-details">
+                <summary class="project-details__summary">
+                  <span class="project-details__more">Read more</span>
+                  <span class="project-details__less">Show less</span>
+                </summary>
+                <div class="project-details__panel">
+                  <p class="project-details__text">
+                    Federated learning for diabetes and Parkinson’s: local dense nets with batch norm and dropout, centralized aggregation of weights, and comparisons to centralized training—with secure aggregation concepts and experiments toward differential privacy and encrypted updates. Regression test loss improved by up to about 60% in the federated setting while preserving comparable accuracy.
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="btn-container project-card__actions">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/aryan8433/FedLearning'"
               >
-                Github
+                GitHub
               </button>
-              <!-- <p>hello</p> -->
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
-          <!-- <div class="details-container color-container"> -->
-            <!-- <div class="article-container">
+          <div class="details-container color-container project-card">
+            <div class="article-container">
               <img
-                src="./assets/project-3.png"
-                alt="Project 3"
+                src="./assets/hello.png"
+                alt="Hate speech unlearning project"
                 class="project-img"
               />
-            </div> -->
-            <!-- <h2 class="experience-sub-title project-title">Project Three</h2> -->
-            <!-- <div class="btn-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Hate speech unlearning</h2>
+            <div class="project-card__grow">
+              <details class="project-details">
+                <summary class="project-details__summary">
+                  <span class="project-details__more">Read more</span>
+                  <span class="project-details__less">Show less</span>
+                </summary>
+                <div class="project-details__panel">
+                  <p class="project-details__text">
+                    Reimplemented selective knowledge unlearning (SKU) on LLaMA-2/3, fixing dataloader and training-stability issues, adding an InfoNCE contrastive module, and fine-tuning with cross-entropy and negative KL on PKU-SafeRLHF and TruthfulQA—cutting harmful response rate by about 46% while tracking perplexity and BLEURT. Added a relearning stage with task-vector extraction and negation, plus LoRA and quantization for efficient runs on 7B/8B variants.
+                  </p>
+                </div>
+              </details>
+            </div>
+            <div class="btn-container project-card__actions">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/aryan8433'"
               >
-                Github
+                GitHub
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div> -->
-          <!-- </div> -->
+            </div>
+          </div>
         </div>
       </div>
       <img
@@ -387,7 +660,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">aryan4brc@gmail.com</a></p>
+          <p><a href="mailto:abhusari@usc.edu">abhusari@usc.edu</a></p>
         </div>
         <div class="contact-info-container">
           <img

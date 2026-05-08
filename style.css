@@ -856,6 +856,7 @@ html:not([data-theme="light"]) .details-container .icon {
 }
 
 #projects .article-container {
+  position: relative;
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -911,12 +912,19 @@ html:not([data-theme="light"]) #experience article .icon {
 }
 
 #projects .project-img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   min-height: 0;
   object-fit: cover;
   object-position: center;
   display: block;
+}
+
+#projects .project-img--tasks {
+  transform: scale(1.14);
+  transform-origin: center;
 }
 
 .project-title {
